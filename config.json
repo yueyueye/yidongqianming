@@ -1,0 +1,25 @@
+{
+  "customComponentItems": {
+    "SignName": {
+      "name": "SignName",
+      "imagePath": "preview/downloader.png",
+      "description": "移动端手写签名",
+      "itemInputs": [
+        {
+          "fieldName": "signId",
+          "type": "INTEGER"
+        },
+        {
+          "fieldName": "url",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "actionflow_id",
+          "type": "TEXT"
+        }
+
+      ]
+    }
+  },
+  "version": "0.0.1"
+}
